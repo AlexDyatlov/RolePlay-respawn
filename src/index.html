@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('components/_head.html')
+
+<body>
+  @@include('components/_header.html')
+  <!-- WRITE CODE HERE -->
+  <main class="spawn">
+    <div class="container">
+      <a class="spawn__logo" href="#">
+          <img src="images/logo.png" alt="">
+      </a>
+      <div class="spawn__inner">
+        <div class="spawn__item" style="background-image: url(images/content/item-1.png);">
+          <p class="spawn__item-description">
+            თქვენ გაჩნდებით თქვენი ფრაქციის კუთვნილ ტერიტორიაზე
+          </p>
+          <h1 class="spawn__item-title">
+            ფრაქცია <span>ორგანიზაცია</span> 
+          </h1>
+          <button class="spawn__item-btn" type="button" disabled="disabled">შეუძლებელია</button>
+        </div>
+        <div class="spawn__item" style="background-image: url(images/content/item-2.png);">
+          <p class="spawn__item-description spawn__item-description--active">
+            თქვენ გაჩნდებით იმ ტერიტორიაზე სადაც თამაშიდან გასვლისას იმყოფებოდით
+          </p>
+          <h1 class="spawn__item-title spawn__item-title--active">
+            გასვლის <span>წერტილი</span> 
+          </h1>
+          <button class="spawn__item-btn spawn__item-btn--active" type="button">გაჩენა</button>
+        </div>
+        <div class="spawn__item" style="background-image: url(images/content/item-3.png);">
+          <p class="spawn__item-description spawn__item-description-home">
+            თქვენ უნდა შეიძინოთ სახლი რათა გამოიყენოთ ეს ფუნქცია
+          </p>
+          <h1 class="spawn__item-title">
+            სახლში <span>გაჩენა</span> 
+          </h1>
+          <button class="spawn__item-btn" type="button" disabled="disabled">შეუძლებელია</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- STOP WRITE CODE -->
+  @@include('components/_footer.html')
+  @@include('components/_scripts.html')
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+@media (max-width: 1920px){
+  .spawn{
+    padding: 45px 0;
+    &__logo{
+      img{
+        width: 200px;
+        margin-left: 80px;
+      }
+    }
+  }
+  .spawn__item{
+    min-height: 675px;
+    max-width: 540px;
+    &-title{
+      font-size: 55px;
+      line-height: 58px;
+      margin-top: 210px;
+      span{
+        font-size: 44px;
+      }
+    }
+    button{
+      font-size: 30px;
+      line-height: 38px;
+    }
+    &-description{
+      max-width: 430px;
+      left: 80px;
+      font-size: 20px;
+      line-height: 28px;
+    }
+    &::after {
+      width: 460px;
+    }
+    &::before {
+      width: 460px;
+    }
+  }
+}
+@media (max-width: 1366px){
+  .spawn{
+    &__logo{
+      img{
+        width: 145px;
+        margin-left: 80px;
+      }
+    }
+    &__inner{
+      margin: 60px auto 0;
+    }
+  }
+  .spawn__item{
+    min-height: 400px;
+    max-width: 480px;
+    &-title{
+      font-size: 45px;
+      line-height: 43px;
+      margin-top: 150px;
+      span{
+        font-size: 38px;
+      }
+    }
+    button{
+      font-size: 30px;
+      line-height: 38px;
+      width: 250px;
+      border-bottom: 5px solid #0bf1ff;
+    }
+    &-description{
+      max-width: 355px;
+      left: 60px;
+      font-size: 17px;
+      line-height: 23px;
+    }
+    &::after {
+      width: 380px;
+      height: 6px;
+    }
+    &::before {
+      width: 380px;
+      height: 6px;
+    }
+  }
+}
